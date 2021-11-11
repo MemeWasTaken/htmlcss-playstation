@@ -1,1 +1,8 @@
 body {font-family: Arial, Helvetica, sans-serif}
+.header-top {background-color: black;}
+img[src="img/sony_logo.svg"] {
+    width: 10%;
+    padding-left: 0;
+}
+.header-top {margin-right: 0;}
+
