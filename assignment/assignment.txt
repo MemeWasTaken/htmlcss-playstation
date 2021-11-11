@@ -1,0 +1,14 @@
+Exercise: PlayStation  5
+repository: htmlcss-playstation
+
+Ricreiamo il layout responsive della home page di PlayStation, seguendo gli screenshot allegati, che sono i nostri riferimenti reali (non il sito online).
+La richiesta è realizzarlo utilizzando le griglie di Bootstrap 5.
+Teniamoci sempre sotto mano la documentazione della libreria per usare le caratteristiche principali nel modo corretto, potremmo trovarci anche classi helper, utilities etc. che potrebbero esserci anche utili.
+Avrete fino a lunedì per completare il layout.
+
+TIPS:
+Come sempre partite dall’analisi delle macroaree e segnatele con dei commenti sull’html.
+Cercate anche di capire cosa è uguale o molto simile per poter riciclare il più possibile le vostre classi.
+Passate poi a lavorare sezione per sezione dal breakpoint xs a quello xxl, fate funzionare perfettamente una sezione e solo dopo passate oltre.
+Partite comunque sempre semplici e fate un passo alla volta: blocchi colorati e lorem ipsum, poi i testi veri e le img…
+Provate i componenti di bootstrap prima in un foglio a parte, quando avete capito bene come funzionano allora copiate e incollate nel lavoro principale.
