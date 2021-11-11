@@ -1,8 +1,35 @@
 body {font-family: Arial, Helvetica, sans-serif}
 .header-top {background-color: black;}
 img[src="img/sony_logo.svg"] {
-    width: 10%;
+    width: 8%;
     padding-left: 0;
 }
 .header-top {margin-right: 0;}
-
+@media screen and (max-width: 576px) {
+    img[src="img/sony_logo.svg"] {
+        width: 15%;
+        padding-left: 0;
+    }
+}
+.logo-play-new {
+    width: 110%;
+    height: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.sign-in-btn {
+    background-color: #363636;
+    border: none;
+    border-radius: 1.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0 1em;
+}
+.search {
+    background-color: transparent;
+    border: none;
+    color: #363636;
+}
