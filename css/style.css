@@ -12,13 +12,13 @@ img[src="img/sony_logo.svg"] {
     }
 }
 .logo-play-new {
-    width: 110%;
+    width: 3em;
     height: auto;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
 }
 .sign-in-btn {
     background-color: #363636;
@@ -32,4 +32,22 @@ img[src="img/sony_logo.svg"] {
     background-color: transparent;
     border: none;
     color: #363636;
+}
+
+.banner {width: 100%; height: 675px;}
+.banner.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: auto;
+    background-position: center;
+}
+img[src="img/returnal-hero-banner-logo.png"] {
+    width: 50%;
+    height: auto;
+}
+.title-banner {font-size: 3em;}
+.par-banner {font-size: 1.3em; font-weight: 500;}
+.btn.purchase-now {
+    background-color: #CD3D0F;
+    color: #FFFFFF;
+    font-size: 1.3em;
 }

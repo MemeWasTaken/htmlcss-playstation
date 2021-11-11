@@ -1,0 +1,1 @@
+*) Al click del mouse nei drop down menu freccina si gira al contrario e il menu che compare occupa tutta la larghezza ed è diverso
