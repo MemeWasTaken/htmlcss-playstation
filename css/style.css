@@ -1,17 +1,24 @@
+/* General Section */
 body {font-family: Arial, Helvetica, sans-serif}
 .width-all {width: 100%;}
+/* /General Section */
+
+/* Header */
+/* Top */
 .header-top {background-color: black;}
 img[src="img/sony_logo.svg"] {
     width: 8%;
     padding-left: 0;
 }
-.header-top {margin-right: 0;}
 @media screen and (max-width: 576px) {
     img[src="img/sony_logo.svg"] {
         width: 15%;
         padding-left: 0;
     }
 }
+.header-top {margin-right: 0;}
+
+/* Bottom */
 .logo-play-new {
     width: 3em;
     height: auto;
@@ -43,7 +50,10 @@ img[src="img/sony_logo.svg"] {
         font-weight: 500;
     }
 }
+/* /Header */
 
+/* Main */
+/* Banner Jumbo */
 .banner {width: 100%; height: 675px;}
 .banner.returnal {
     background-image: url(../img/jumbo-bg.png);
@@ -61,8 +71,9 @@ img[src="img/returnal-hero-banner-logo.png"] {
     color: #FFFFFF;
     font-size: 1.3em;
 }
+/* /Banner Jumbo */
 
-
+/* Card-image Sub-jumbo */
 .card-image.sub-jumbo {
     width: 100%;
     height: auto;
@@ -76,6 +87,7 @@ img[src="img/returnal-hero-banner-logo.png"] {
         width: 110%; 
     }
 }
+/* /Card-image Sub-jumbo */
 
 
 
@@ -92,3 +104,5 @@ img[src="img/returnal-hero-banner-logo.png"] {
 
 
 
+
+/* /Main */
