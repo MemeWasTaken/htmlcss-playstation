@@ -1,4 +1,5 @@
 body {font-family: Arial, Helvetica, sans-serif}
+.width-all {width: 100%;}
 .header-top {background-color: black;}
 img[src="img/sony_logo.svg"] {
     width: 8%;
@@ -33,6 +34,15 @@ img[src="img/sony_logo.svg"] {
     border: none;
     color: #363636;
 }
+@media screen and (max-width: 1110px) {
+    form.container-fluid {
+        padding: 0 0;
+    }
+    nav {
+        font-size: 85%;
+        font-weight: 500;
+    }
+}
 
 .banner {width: 100%; height: 675px;}
 .banner.returnal {
@@ -51,3 +61,34 @@ img[src="img/returnal-hero-banner-logo.png"] {
     color: #FFFFFF;
     font-size: 1.3em;
 }
+
+
+.card-image.sub-jumbo {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.card-image.sub-jumbo.active {
+    border: 2px solid #4497DB;
+}
+@media screen and (min-width: 992px ) and (max-width: 1200px) {
+    .card-image.sub-jumbo {
+        width: 110%; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
