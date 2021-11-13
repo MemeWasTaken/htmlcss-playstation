@@ -115,8 +115,11 @@ img[src="img/returnal-hero-banner-logo.png"] {
     background-color: #2D64E6;
     color: #FFFFFF;
     width: auto;
+}
+.find-more-btn.my-margin-fmb {
     margin-left: calc(var(--bs-gutter-x) * .5);
 }
+
 img[src="img/playstation-5-thumb.png"] {
     width: 58%;
     height: auto;
