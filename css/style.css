@@ -164,12 +164,36 @@ img[src="img/it-takes-two-logo.png"] {
 .card-image.sub-jumbo.new-releases {
     width: 75%;
 }
-.text-sub-card-image.new-releases {
-    display: inline-block;
-    width: 75%;
-}
+.text-sub-card-image.new-releases {width: 75%;}
 /* /New Releases Section */
 
+/* Playstation Plus Section */
+.container-fluid.playstation-plus {background-color: #BEBCBB;}
+img[src="img/ps-plus-logo.png"] {
+    width: 50%;
+}
+img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
+    width: 85%;
+}
+/* @media screen and (max-width: 1038px) {
+    img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 971px) {
+    img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
+        width: 110%;
+    } 
+} */
+
+
+.btn.explore.play-plus {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #3167E6;
+    font-weight: 500;
+}
+.exp-play-plus {width: 85%;}
+/* /Playstation Plus Section */
 
 
 
