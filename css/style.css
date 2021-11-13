@@ -6,6 +6,12 @@ body {font-family: Arial, Helvetica, sans-serif}
 .a-none:focus,
 .a-none:active {text-decoration: none;}
 .my-my-5 {margin: 5em 0;}
+@media (min-width: 992px) {
+    .offset-lg-1 {
+        padding-left: 3em;
+        margin-left: 0;
+    }
+}
 /* /General Section */
 
 /* Header */
@@ -59,11 +65,14 @@ img[src="img/sony_logo.svg"] {
 
 /* Main */
 /* Banner Jumbo */
-.banner {width: 100%; height: 675px;}
-.banner.returnal {
-    background-image: url(../img/jumbo-bg.png);
+.banner {
+    width: 100%;
     background-size: auto;
     background-position: center;
+}
+.banner.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    height: 675px;
 }
 img[src="img/returnal-hero-banner-logo.png"] {
     width: 50%;
@@ -94,7 +103,7 @@ img[src="img/returnal-hero-banner-logo.png"] {
 }
 /* /Card-image Sub-jumbo */
 
-
+/* PlayStation 5 */
 .play-limits {color: #0D79D0;}
 .title-section {font-size: 2.6em;}
 .sub-title-p {
@@ -130,10 +139,33 @@ img[src="img/playstation-5-thumb.png"] {
         opacity: 80%;
     }
 }
-.text-sub-card-image {
-    font-size: 1.1em;
+.text-sub-card-image {font-size: 1.1em;}
+/* /PlayStation 5 */
+
+/* Banner It takes two */
+.banner.it-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 956px;
+}
+/* /Banner It takes two */
+img[src="img/it-takes-two-logo.png"] {
+    width: 55%;
+    height: auto;
 }
 
+/* New Releases Section */
+.container-fluid.new-releases {
+    background-color: #1F1F1F;
+    padding-left: 3em;
+}
+.card-image.sub-jumbo.new-releases {
+    width: 75%;
+}
+.text-sub-card-image.new-releases {
+    display: inline-block;
+    width: 75%;
+}
+/* /New Releases Section */
 
 
 
