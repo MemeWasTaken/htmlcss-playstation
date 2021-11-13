@@ -113,8 +113,26 @@ img[src="img/playstation-5-thumb.png"] {
     height: auto;
 }
 
-
-
+.col.active-play {
+    border-bottom: 2px solid #2D64E6;
+    border-radius: 0;
+    padding: 0 2.5em;
+    padding-bottom: 2em;
+}
+.not-active-play {
+    opacity: 70%;
+    border-radius: 0;
+    padding: 0 2.5em;
+    padding-bottom: 1em;
+}
+@media screen and (max-width: 992px) {
+    .not-active-play {
+        opacity: 80%;
+    }
+}
+.text-sub-card-image {
+    font-size: 1.1em;
+}
 
 
 
