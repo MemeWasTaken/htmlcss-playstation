@@ -169,13 +169,15 @@ img[src="img/it-takes-two-logo.png"] {
 
 /* Playstation Plus Section */
 .container-fluid.playstation-plus {background-color: #BEBCBB;}
+img[src="img/ps-now-logo-two-column.png"],
 img[src="img/ps-plus-logo.png"] {
     width: 50%;
 }
+img[src="img/ps-now-april-featured-image-block.png"],
 img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
     width: 85%;
 }
-/* @media screen and (max-width: 1038px) {
+@media screen and (max-width: 1038px) {
     img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
         width: 100%;
     } 
@@ -184,7 +186,7 @@ img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
     img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
         width: 110%;
     } 
-} */
+}
 
 
 .btn.explore.play-plus {
@@ -195,11 +197,25 @@ img[src="img/ps-plus-april-monthly-games-featured-image-block.png"] {
 .exp-play-plus {width: 85%;}
 /* /Playstation Plus Section */
 
-
-
-
-
-
-
-
+.container-fluid.playstation-now {
+    background-color: #161C3B;
+}
 /* /Main */
+
+/* Footer Section */
+.container-fluid.footer {
+    background-color: #00439C;
+}
+.shared-nav-ps-logo {
+    width: 25%;
+    height: auto;
+}
+.svg-inline--fa.fa-globe.fa-w-16 {
+    width: 3%;
+    height: auto;
+}
+img[src="img/sie-logo.svg"] {
+    width: 12%;
+    height: auto;
+}
+/* /Footer Section */
