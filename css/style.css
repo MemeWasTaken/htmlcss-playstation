@@ -218,4 +218,7 @@ img[src="img/sie-logo.svg"] {
     width: 12%;
     height: auto;
 }
+.more-info-link {
+    text-decoration: underline;
+}
 /* /Footer Section */
